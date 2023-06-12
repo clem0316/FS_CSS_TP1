@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@500&display=swap");
+
+:root {
+  --color1: #f8f4ec;
+  --color2: rgb(71, 77, 255);
+  --color3: rgb(29, 29, 29);
+  --color4: rgb(13, 13, 13);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--color3);
+  font-family: "inter", sans-serif;
+  max-width: 1160px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 20px;
+  color: var(--color1);
+  font-size: 0.8rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  padding: 10px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-left-container h1 {
+  color: var(--color1);
+  font-size: 3.7rem;
+}
+
+.header-left-container h3 {
+  color: var(--color2);
+  font-size: 1.4rem;
+  padding: 10px 0px;
+}
+
+.header-left-container p {
+  color: var(--color1);
+  padding-right: 30px;
+  font-size: 0.6rem;
+}
+
+.header-left-container {
+}
+
+.header-right img {
+  width: 95%;
+  padding: 10px;
+}
+
+.infos {
+  max-height: 150px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background: var(--color4);
+  border-radius: 10px;
+}
+
+.infos-left {
+  max-height: 150px;
+  display: block;
+}
+
+.infos h3 {
+  color: var(--color1);
+  margin: 10px;
+  font-size: 0.9rem;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  width: 47%;
+  margin: 5px;
+}
+
+.btn-container button {
+  width: 85%;
+  font-weight: 600;
+  font-size: 0.7rem;
+  display: block;
+  height: 25px;
+  background: var(--color2);
+  color: var(--color1);
+  border: 2px solid var(--color2);
+  border-radius: 7px;
+  margin: 5px;
+}
+
+.infos-right {
+  max-height: 150px;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  max-height: max-content;
+  padding: 10px;
+}
+
+.img-container img {
+  width: 7%;
+}
